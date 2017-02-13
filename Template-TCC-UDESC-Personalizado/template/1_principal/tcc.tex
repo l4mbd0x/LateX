@@ -1,0 +1,104 @@
+%****************************************************************************
+%*  Autor: Nicolas Peter Lane                                               *
+%*  Data: 02/04/2015                                                        *
+%*  Modelo de monografia para TCC - UDESC conforme as normas da ABNT2       *
+%*  sugestões/dúvidas: lambdox@gmail.com                                    *
+%*  									    *
+%*  Licença GPL:              						    *
+%*  Permission to use, copy, modify, and distribute this protocol and its   *
+%*  documentation for any purpose, without fee, and without written         *
+%*  agreement is hereby granted, provided that the above copyright notice,  *
+%*  and the author appear in all copies of this protocol.                   *
+%*                                                                          *
+%****************************************************************************/
+
+\documentclass[a4paper, ruledheader]{abnt}
+
+\usepackage[brazilian]{babel} % Permite utilizar configuracoes da linguagem portugesa do Brasil e Inglesa
+\usepackage[latin1]{inputenc} % Permite especificar codificacao das entradas (caracteres acentuados - á - sem usar \'a)
+\usepackage{udesc}
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage{psfrag}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{amsmath}  %Permite usar fórmulas matemáticas
+\usepackage{ragged2e} %Permite usar formatação justificada /justify
+\usepackage[Conny]{fncychap} 
+\ChTitleAsIs
+
+\begin{document}
+
+
+\instituicao{UNIVERSIDADE DO ESTADO DE SANTA CATARINA - UDESC}
+\centro{CENTRO DE CIÊNCIAS TECNOL\'OGICAS - CCT}
+\departamento{DEPARTAMENTO DE CI\^ENCIA DA COMPUTA\c{C}\~AO}
+\curso{Graduação em CI\^ENCIA DA COMPUTA\c{C}\~AO}
+\autor{DIGITE SEU NOME}
+\titulo{DIGITE O TÍTULO}
+\orientador{Dr. Nome do Orientador}
+\coorientador{Dr. Nome do Orientador} %comentar senão tiver co-orientador
+
+\comentario{Trabalho de conclusão de curso apresentado no curso de Ci\^encia da Computa\c{c}\~ao da Universidade Estadual 
+de Santa Catarina, como requisito parcial para obtenção do grau de Ci\^encia da Computação.}
+
+% Membros da comissão avaliadora
+\bancaum{Prof. \ABNTorientadordata \\ \ABNTinstituicaodata \\ Orientador}
+\bancadois{Prof. \ABNTcoorientadordata \\ Institui\c{c}\~ao\\ Co-orientador}%comentar senão tiver co-orientador                    
+\bancatres{Prof. Dr. Nome do Convidado \\ Institui\c{c}\~ao}              
+\bancaquatro{Prof. Dr. Nome do Convidado \\ Institui\c{c}\~ao}     
+
+\local{Joinville-JLLE}
+\data{mês / ano}
+
+
+\input{../2_pre_texto/capa}
+\setcounter{page}{1} % inicia a contagem do numero das paginas
+\pagenumbering{roman} % define tipo de numeracao romana minuscula
+\input{../2_pre_texto/folhaderosto}
+\input{../2_pre_texto/folhaaprovacao}
+\input{../2_pre_texto/dedicatoria}
+\input{../2_pre_texto/agradecimentos}
+\input{../2_pre_texto/resumo}
+\input{../2_pre_texto/abstract}
+\input{../2_pre_texto/sumario}
+\input{../2_pre_texto/sigla}
+\input{../2_pre_texto/simbolos}
+\input{../2_pre_texto/figuras}
+\input{../2_pre_texto/tabelas}
+
+\setcounter{page}{0} % Reinicia a contagem do numero das paginas
+\pagenumbering{arabic} % Numeracao dos capitulos arabica
+
+
+% ************* TEXTO *************
+% A parte textual deve conter:
+% 1 - Introdução
+% 2 - Revisão de Literatura
+% 3 - Material e Métodos
+% 4 - Análise dos Resultados
+% 5 - Discussão
+% 6 - Conclusão
+\input{../3_texto/introducao}
+\input{../3_texto/ref_teorico}
+\input{../3_texto/relacionados}
+\input{../3_texto/proposta}
+\input{../3_texto/AvaliacaoResultados}
+\input{../3_texto/conclusao}
+
+\bibliographystyle{abnt}%template de referencia da ABNT
+%\bibliographystyle{IEEEtran}%template de referencia do IEEE
+%\bibliographystyle{sbc} %template de referencia do SBC
+\bibliography{../4_pos_texto/biblio}
+
+% *********** APÊNDICES ***********
+% ** Condicionados à necessidade **
+\input{../4_pos_texto/apendice}
+
+% ************ ANEXOS *************
+% ** Condicionados à necessidade **
+\input{../4_pos_texto/anexo}
+
+
+
+\end{document}

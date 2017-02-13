@@ -1,0 +1,32 @@
+Horizontal blinds pulled away
+\transblindsvertical
+
+Move to center from all sides
+\transboxin
+
+Move to all sides from center
+\transboxout
+
+Slowly dissolve what was shown before
+\transdissolve
+
+Glitter sweeps in specified direction
+\transglitter
+
+Sweeps two vertical lines out
+\transslipverticalin
+
+Sweeps two horizontal lines in
+\transslipverticalout
+
+Sweeps two horizontal lines out
+\transhorizontalin
+
+Sweeps single line in specified direction
+\transhorizontalout
+
+Show slide specified number of seconds
+\transwipe
+
+Sweeps two vertical lines in
+\transduration{2}

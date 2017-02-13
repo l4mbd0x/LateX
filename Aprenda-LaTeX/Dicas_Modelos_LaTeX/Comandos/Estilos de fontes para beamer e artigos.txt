@@ -1,0 +1,13 @@
+P/ slides
+
+\usefonttheme{...}
+
+-serif
+-professionalfonts
+-structurebold
+-structureitalicserif
+-structuresmallcapsserif
+----------------------------
+P/ artigos
+Por padrão o artigo vem com fonte Computer Modern
+\usepackage{times} - Times Rome

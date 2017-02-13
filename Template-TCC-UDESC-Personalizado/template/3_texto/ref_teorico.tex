@@ -1,0 +1,43 @@
+\chapter{Referencial Teórico}
+\label{cha:refTeorico}
+Apresentar todas as tecnolonologias utilizadas para o desenvolvimento do trabalho
+
+\section{Entrada de Símbolos e Siglas}
+Para fazer a entrada de um símbolo, $\backslash$símbolo\{\simbolo{$\sigma$}{Descrição}\} \{sigma\} é a forma correta. E, para definir uma sigla, $\backslash$sigla\{\sigla{ABNT}{Associação Brasileira de Normas Técnicas}\} \{Descrição\} deve ser utilizado.
+
+Obs.: Quando a sigla ou o símbolo aparecerem novamente no texto, não repita o comando, para que a sigla ou símbolo não se repita na lista correspondente.
+
+\section{Introdução à tecnologia X}
+
+
+Inserindo uma referencia da tecnologia x \cite{ref}.
+
+
+Exemplo para inserir figura. Figura \ref{fig:nomeParaRef}.
+
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.45\textwidth]{../5_figuras/fig1}
+	\caption{Título da figura}
+	\label{fig:nomeParaRef}
+\end{figure}
+
+
+exemplo de figura lado a lado. Figura \ref{fig:a} e \ref{fig:a}
+
+\begin {figure}[htbp]
+	\begin {center}
+    \subfloat [Figura a]{
+    \includegraphics[width=0.35\linewidth]{../5_figuras/fig1}
+    \label{fig:a}
+    }
+    \subfloat [Figura b]{
+    \includegraphics[width=0.35\linewidth]{../5_figuras/fig1}
+    \label{fig:b}
+    }
+    \caption{itulo}
+    \end{center}
+\end{figure}
+
+\section{Conclusões do capítulo}

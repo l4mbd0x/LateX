@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{times}
+
+
+\title{My Article}
+\author{Nobody Jr.}
+\date{Today}
+
+\begin{document}
+
+\maketitle
+
+\clearpage
+
+Blablabla said Nobody ~\cite{kernighan_ansi_1988}.
+Blablabla said Nobody Blablabla said Nobody Blablabla said Nobody
+Blablabla said Nobody Blablabla said Nobody Blablabla said Nobody
+Blablabla said Nobody Blablabla said Nobody Blablabla said Nobody
+Blablabla said Nobody ~\cite{frisch_self-consistent_1984}.
+
+\clearpage
+
+\bibliographystyle{plain}
+\bibliography{mybib}
+
+
+%Se o comando \bibliography{} e \bibliographystyle{} forem inseridos, mas não houver \cite{} 
+%com uma entrada válida do arquivo .bib a referência não funcionará 
+
+\end{document}

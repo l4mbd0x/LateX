@@ -1,0 +1,73 @@
+\documentclass[12pt]{beamer}
+\usetheme{Warsaw} 
+% Warsaw, CambridgeUS
+\usecolortheme{Beaver}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{movie15}
+
+\title{Presentation in Beamer}
+\subtitle{How to build a Presentation}
+\author{Nicolas Peter Lane}
+\institute{Universidade Estadual de Santa Catarina}
+\date{\today}
+
+
+\AtBeginSection[]
+{
+	\begin{frame}
+	\frametitle{Table of Contents}
+	\tableofcontents[currentsection]
+	\end{frame}
+}
+
+\begin{document}
+
+\begin{frame}[shrink]
+\titlepage
+\end{frame}
+
+\section{Section 1}
+\subsection{SS 1}
+\begin{frame}[shrink]
+
+\frametitle{Frame 1}
+\begin{block}{Frame 1}
+\pause
+Contents of Frame 1
+\end{block}
+\end{frame}
+
+\subsection{SS 2}
+\begin{frame}[shrink]
+\frametitle{Frame 2}
+\begin{block}{Frame 2}
+\pause
+Contents of Frame 2
+\end{block}
+\end{frame}
+
+\section{Section 2}
+\subsection{SS 3}
+\begin{frame}[shrink]
+\frametitle{Frame 3}
+\begin{block}{Frame 3}
+\pause
+Contents of Frame 3
+\end{block}
+\end{frame}
+
+\subsection{SS 4}
+\begin{frame}[shrink]
+\frametitle{Frame 4}
+\begin{block}{Frame 4}
+\pause
+Contents of Frame 4
+\end{block}
+\end{frame}
+
+\end{document}
