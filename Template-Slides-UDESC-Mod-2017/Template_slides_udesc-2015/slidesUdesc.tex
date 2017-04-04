@@ -1,0 +1,50 @@
+\documentclass{beamer}
+
+\usepackage{graphicx,hyperref,udesc,url}
+\usepackage[brazilian]{babel}
+\usepackage[nolist]{acronym}
+\usepackage[utf8]{inputenc}
+\usepackage{glossaries} % abreviaturas 
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{ragged2e}
+\usepackage{helvet} % Arial font clone
+\input{acronimos}
+
+\title{aaaa}
+
+\author{Nicolas P. Lane\\ bbbb\\
+    {\small \url{{aaas, bbbb}@email.com}}
+}
+
+\institute[]{
+    \ac{DCC} \\
+    \ac{CCT} \\
+    \ac{UDESC}
+}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame[shrink]{
+    \titlepage
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Usar shrink no [] se precisar colocar mais seções e subseções e não dispor de mais espaço
+\frame{
+    \frametitle{Sumário}
+    \tableofcontents
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Fundamentação}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame[shrink]{
+    \frametitle{Objetivos específicos}
+    
+    \begin{itemize}
+     \item Identificar vulnerabilidades nos mecanismos de segurança do OpenStack
+     \item Analisar a infraestrutura da nuvem computacional quanto ao vetor de vulnerabilidades
+     \item Analisar os dados obtidos com o Honeyd na rede de produção
+    \end{itemize}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
