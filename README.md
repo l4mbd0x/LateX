@@ -1,11 +1,11 @@
 # LateX
 
-## Interessantes
-| Nome | Descrição |
+## List
+| Label | Description |
 |------|-----------|
-| Template-SBC | Contém template SBC |
-| Templates-RBCA | Contém modelo RBCA 2015 |
-| Template-TCC-UDESC | Contém modelo utilizando as normas da UDESC |
-| Template-TCC-UDESC-Personalizado | Contém modelo utilizando as normas da ABNT |
-| Template-Slides-Udesc-Mod-2017 | Contém modelo usando ABNT puro como norma, logos e marcas d'água UDESC atualizadas |
-| Aprenda-LaTeX | Contém uma série de arquivos básicos e exemplos que utilizei para aprender a usar o processador textual |
+| Template-SBC | SBC template |
+| Templates-RBCA | RBCA 2015 template |
+| Template-TCC-UDESC | TCC template according to UDESC norms |
+| Template-TCC-UDESC-Personalizado | TCC template according to ABNT norms |
+| Template-Slides-Udesc-Mod-2017 | Slide presentation according to ABNT norm for UDESC 2017 |
+| Aprenda-LaTeX | A series of documents and files with simple examples to extended use of LaTeX written in pt-br |
